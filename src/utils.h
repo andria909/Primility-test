@@ -1,6 +1,4 @@
-#ifndef UTILS_H
-#define UTILS_H
-
+#pragma once
 #include <boost/multiprecision/cpp_int.hpp>
 #include <cmath>
 using namespace boost::multiprecision;
@@ -13,4 +11,4 @@ cpp_int pow(cpp_int base, cpp_int exp);
 cpp_int is_perfect_pow(cpp_int n);
 cpp_int find_smallest_r(cpp_int n);
 cpp_int log2(cpp_int n);
-#endif // UTILS_H
+
